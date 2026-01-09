@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Qobillore Agencies</title>
+
+  <style>
+    :root {
+      --purple: #6a1b9a;
+      --teal: #00897b;
+      --light-bg: #f4f6f8;
+      --dark-text: #333;
+      --white: #ffffff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: var(--light-bg);
+      color: var(--dark-text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--purple), var(--teal));
+      color: var(--white);
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    nav {
+      background-color: var(--white);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: var(--purple);
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: var(--teal);
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .section-title h2 {
+      font-size: 2.2rem;
+      color: var(--purple);
+    }
+
+    .section-title p {
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background-color: var(--white);
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+    }
+
+    .card h3 {
+      color: var(--teal);
+      margin-bottom: 10px;
+    }
+
+    .about {
+      background-color: var(--white);
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    .contact p {
+      margin-bottom: 10px;
+      font-size: 1.1rem;
+    }
+
+    .contact strong {
+      color: var(--purple);
+    }
+
+    footer {
+      background-color: #222;
+      color: #bbb;
+      text-align: center;
+      padding: 25px 15px;
+      margin-top: 60px;
+    }
+
+    footer span {
+      color: var(--teal);
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Qobillore Agencies</h1>
+    <p>Professional Consulting & Business Support Services You Can Trust</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="services">
+    <div class="section-title">
+      <h2>Our Services</h2>
+      <p>Tailored solutions to help individuals and businesses succeed</p>
+    </div>
+
+    <div class="services">
+      <div class="card">
+        <h3>Business Consulting</h3>
+        <p>Strategic advice and planning to support business growth and compliance.</p>
+      </div>
+
+      <div class="card">
+        <h3>Documentation Support</h3>
+        <p>Professional preparation and review of official and business documents.</p>
+      </div>
+
+      <div class="card">
+        <h3>Advisory Services</h3>
+        <p>Guidance and insights to help you make confident, informed decisions.</p>
+      </div>
+
+      <div class="card">
+        <h3>Client Representation</h3>
+        <p>Reliable support and representation throughout important processes.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="section-title">
+      <h2>About Qobillore Agencies</h2>
+    </div>
+
+    <div class="about">
+      <p>
+        Qobillore Agencies is committed to delivering professional, reliable,
+        and client-focused consulting services. We work closely with our clients
+        to understand their needs and provide solutions that are practical,
+        ethical, and results-driven.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="section-title">
+      <h2>Contact Us</h2>
+      <p>Get in touch with us today</p>
+    </div>
+
+    <div class="contact">
+      <p><strong>Email:</strong> consult@qobilloreagencues.com</p>
+      <p><strong>Phone:</strong> +254 722 929 006</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 <span>Qobillore Agencies</span>. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
